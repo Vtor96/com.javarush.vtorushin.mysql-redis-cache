@@ -41,6 +41,9 @@ docker run --name mysql -d -p 3306:3306 \
   --restart unless-stopped \
   -v mysql:/var/lib/mysql mysql:8
 
+
+
+
 ### 2. Развернуть дамп БД world
 Импортировать дамп через Workbench, DBeaver или psql (схема включена в файл).
 
